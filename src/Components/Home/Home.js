@@ -1,4 +1,5 @@
 import React from "react";
+import CarCondition from "./CarCondition";
 import HeroSection from "./Heros/HeroSection";
 import MotorDescription from "./MotorDescription/MotorDescription";
 
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <HeroSection></HeroSection>
       <MotorDescription></MotorDescription>
+      <CarCondition></CarCondition>
     </>
   );
 };

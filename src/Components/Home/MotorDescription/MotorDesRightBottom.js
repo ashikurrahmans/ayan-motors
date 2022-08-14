@@ -4,7 +4,7 @@ import { MdLocationOn } from "react-icons/md";
 import { AiFillCar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-const MotorDescriptionRightBottom = () => {
+const MotorDesRightBottom = () => {
   const iconSize = {
     fontSize: "30px",
     marginBottom: "8px",
@@ -12,7 +12,7 @@ const MotorDescriptionRightBottom = () => {
   };
   return (
     <>
-      <div className="flex gap-2 text-black bg-white rounded-sm py-4">
+      <div className="flex gap-2 text-black bg-white rounded-sm">
         <div className="m-4">
           <Link to="#">
             <BsTelephoneInbound style={iconSize}></BsTelephoneInbound>
@@ -36,4 +36,4 @@ const MotorDescriptionRightBottom = () => {
   );
 };
 
-export default MotorDescriptionRightBottom;
+export default MotorDesRightBottom;

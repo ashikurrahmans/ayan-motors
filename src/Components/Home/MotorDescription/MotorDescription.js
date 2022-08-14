@@ -1,6 +1,5 @@
 import React from "react";
 import MotorDescriptionRight from "./MotorDescriptionRight";
-import MotorDescriptionRightBottom from "./MotorDescriptionRightBottom";
 
 const MotorDescription = () => {
   return (
@@ -59,23 +58,22 @@ const MotorDescription = () => {
               </p>
             </main>
             <MotorDescriptionRight></MotorDescriptionRight>
-            <MotorDescriptionRightBottom></MotorDescriptionRightBottom>
           </div>
         </div>
 
-        <div className="flex gap-4 justify-center py-10">
+        <div className="flex gap-4 justify-center pt-14 pb-8">
           <img
-            className="w-36 h-14"
+            className="w-32 h-10"
             src="https://assets.cardealer5.co.uk/superadmin_uploads/partnerlogos/pl_21.png"
             alt=""
           />
           <img
-            className="w-36 h-14"
+            className="w-32 h-10"
             src="https://assets.cardealer5.co.uk/superadmin_uploads/partnerlogos/pl_143.png"
             alt=""
           />
           <img
-            className="w-36 h-14"
+            className="w-32 h-10"
             src="https://assets.cardealer5.co.uk/superadmin_uploads/partnerlogos/pl_182.png"
             alt=""
           />
