@@ -20,7 +20,7 @@ const TopHeader = () => {
     <>
       <section Style="background-image:url(https://media.gettyimages.com/photos/at-the-the-network-tolo-televised-debate-dr-abdullah-abdullah-with-picture-id1179614034?k=6&m=1179614034&s=612x612&w=0&h=WwIX3RMsOQEn5DovD9J3e859CZTdxbHHD3HRyrgU3A8=)">
         <div className="bg-[#000000] opacity-80">
-          <div className="w-10/12 mx-auto flex justify-between justify-items-center pb-8 pt-4">
+          <div className="w-10/12 mx-auto grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  justify-between justify-items-center pb-8 pt-4">
             <div className="flex">
               <Link to="#">
                 <FaFacebookF style={fontSize}></FaFacebookF>

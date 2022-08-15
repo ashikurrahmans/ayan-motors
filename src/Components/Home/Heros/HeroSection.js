@@ -5,7 +5,7 @@ import SingleHero from "./SingleHero";
 const HeroSection = () => {
   return (
     <>
-      <div className="grid grid-cols-2 mb-4">
+      <div className="grid lg:grid-cols-2 md:grid-cols-1 mb-4 md:w-full md:mx-auto md:text-center">
         <SingleHero></SingleHero>
         <div>
           <div>

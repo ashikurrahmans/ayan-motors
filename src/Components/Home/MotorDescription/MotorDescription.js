@@ -1,5 +1,7 @@
 import React from "react";
+import CompanySupporters from "./CompanySupporters";
 import MotorDescriptionRight from "./MotorDescriptionRight";
+import MotorDesRightBottom from "./MotorDesRightBottom";
 
 const MotorDescription = () => {
   return (
@@ -17,8 +19,8 @@ const MotorDescription = () => {
             YOUR SPORTS & PRESTIGE CAR SPECIALIST
           </h1>
 
-          <div className="grid grid-cols-3 gap-20">
-            <main className="text-gray-100 py-12 col-span-2">
+          <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:mr-32 gap-20">
+            <main className="text-gray-100 lg:py-12 md:py-10 sm:py-4 col-span-2">
               <p className="py-4">
                 We are a well-established, passionate used car dealer
                 specialising in the sale of sports & prestige vehicles based in
@@ -50,7 +52,7 @@ const MotorDescription = () => {
                 our stock, so can offer both cash sales and part exchange
                 against the value of a car in our existing range.
               </p>
-              <p className="py-6">
+              <p className="lg:py-6 md:py-4 sm:py-2">
                 To speak to one of our specialist sales advisers about finance,
                 and buying or selling a car, please complete the online enquiry
                 form today or phone our dealership in West Bromwich, West
@@ -60,24 +62,7 @@ const MotorDescription = () => {
             <MotorDescriptionRight></MotorDescriptionRight>
           </div>
         </div>
-
-        <div className="flex gap-4 justify-center pt-14 pb-8">
-          <img
-            className="w-32 h-10"
-            src="https://assets.cardealer5.co.uk/superadmin_uploads/partnerlogos/pl_21.png"
-            alt=""
-          />
-          <img
-            className="w-32 h-10"
-            src="https://assets.cardealer5.co.uk/superadmin_uploads/partnerlogos/pl_143.png"
-            alt=""
-          />
-          <img
-            className="w-32 h-10"
-            src="https://assets.cardealer5.co.uk/superadmin_uploads/partnerlogos/pl_182.png"
-            alt=""
-          />
-        </div>
+        <CompanySupporters></CompanySupporters>
       </section>
     </>
   );

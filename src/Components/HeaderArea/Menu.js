@@ -7,16 +7,16 @@ const Menu = () => {
   return (
     <>
       <nav className="bg-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto sm:px-2 lg:px-8 md:px-4 px-2">
           <div className="flex items-center justify-center h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0 lg:hidden sm:block md:block ">
+              {/* <div className="flex-shrink-0 lg:hidden sm:block md:block ">
                 <img
                   className="h-16 w-22"
                   src="https://www.ayaanmotors.com/admin/uploaded_photos/site_logo.png?nc=1311"
                   alt="Workflow"
                 />
-              </div>
+              </div> */}
               <div className="hidden md:block ml-6">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <MenuLinks></MenuLinks>

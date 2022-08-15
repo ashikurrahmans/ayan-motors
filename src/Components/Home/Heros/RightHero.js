@@ -5,7 +5,7 @@ const RightHero = ({ title, description, buttonLink, bgImage }) => {
   return (
     <>
       <div
-        className="relative h-[290px] flex items-end justify-start text-left bg-cover bg-center ml-4"
+        className="relative h-[290px] flex items-end justify-start text-left bg-cover bg-center md:ml-4 md:mt-4 lg:mt-0 sm:mt-4"
         Style={`background-image:url(${bgImage})`}
       >
         <div className="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900"></div>
