@@ -7,7 +7,7 @@ const PoweredBy = () => {
         <img
           src="https://www.ayaanmotors.com/asset/images/CarDealer5.svg"
           alt=""
-          className="w-18 h-12 mt-6 sm:flex-1"
+          className="w-32 h-12 mt-6 sm:flex-1"
         />
         <div className="mt-8">
           <li className="text-[10px]">Powered by Car Dealer 5</li>

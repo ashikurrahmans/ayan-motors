@@ -5,7 +5,7 @@ const MenuLinks = () => {
   return (
     <>
       <Link
-        to="#"
+        to="/"
         className=" hover:bg-gray-700 text-white px-8 py-2 rounded-md text-sm font-medium"
       >
         Home
@@ -47,7 +47,7 @@ const MenuLinks = () => {
         Testimonials
       </Link>
       <Link
-        to="#"
+        to="/find-us"
         className="text-gray-300 hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium"
       >
         Find Us

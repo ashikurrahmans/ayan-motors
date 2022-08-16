@@ -1,7 +1,7 @@
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import Slider from "react-slick";
+import Slider from "react-slick";
 
 const SingleSlider = (props) => {
   const { img, desc, name } = props.slider;
@@ -15,13 +15,13 @@ const SingleSlider = (props) => {
 
   return (
     <>
-      {/* <Slider {...settings}>
+      <Slider {...settings}>
         <div>
           <img src={img} alt={name} />
           <p>{desc}</p>
           <h2>{name}</h2>
         </div>
-      </Slider> */}
+      </Slider>
     </>
   );
 };

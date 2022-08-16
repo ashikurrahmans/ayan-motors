@@ -31,7 +31,7 @@ const Menu = () => {
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
-                <span className="sr-only">Open main menu</span>
+                {/* <span className="sr-only">Open main menu</span> */}
                 {!isOpen ? (
                   <svg
                     className="block h-6 w-6"

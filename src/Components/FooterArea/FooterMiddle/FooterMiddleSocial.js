@@ -13,7 +13,7 @@ const FooterMiddleSocial = () => {
 
   return (
     <>
-      <div>
+      <div className="ml-4">
         <li>
           <BsFillTelephoneFill
             style={iconStyle}
