@@ -3,13 +3,14 @@ import { Transition } from "@headlessui/react";
 import MenuLinks from "./MenuLinks";
 
 const Menu = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
     <>
       <nav className="bg-gray-700">
         <div className="max-w-7xl mx-auto sm:px-2 lg:px-8 md:px-4 px-2">
-          <div className="flex items-center justify-center h-16">
-            <div className="flex items-center">
+          <div className="flex items-center justify-center h-16 ">
+            <div className="flex items-center ">
               {/* <div className="flex-shrink-0 lg:hidden sm:block md:block ">
                 <img
                   className="h-16 w-22"
@@ -23,7 +24,7 @@ const Menu = () => {
                 </div>
               </div>
             </div>
-            <div className="-mr-2 flex md:hidden">
+            <div className="-mr-2 flex md:hidden ">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"

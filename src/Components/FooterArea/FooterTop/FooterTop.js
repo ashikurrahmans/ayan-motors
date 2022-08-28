@@ -7,7 +7,7 @@ import FooterContact from "./FooterContact";
 const FooterTop = () => {
   return (
     <>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2 w-full mx-auto ml-12">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2 w-full mx-auto lg:ml-12 md:ml-10 sm:ml-4">
         <div>
           <h1 className="text-white font-bold text-2xl mb-4 uppercase">
             Quick <span className="text-2xl text-white">Nav</span>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const MenuLinks = () => {
   return (
@@ -12,13 +13,16 @@ const MenuLinks = () => {
       </Link>
       <Link
         to="#"
-        className="text-gray-300 hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium"
+        className="text-gray-300 hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium  inline-flex "
       >
         Stoclist
+        <IoMdArrowDropdown
+          style={{ marginTop: "2px", marginLeft: "4px", fontSize: "22px" }}
+        />
       </Link>
       <Link
         to="#"
-        className="text-gray-300 hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium"
+        className="text-gray-300 hover:bg-gray-700 hover:text-white px-8 md:px-0 py-2 rounded-md text-sm font-medium"
       >
         Previously Sold
       </Link>
@@ -41,7 +45,7 @@ const MenuLinks = () => {
         Sell Your Car
       </Link>
       <Link
-        to="#"
+        to="/testimonials"
         className="text-gray-300 hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium"
       >
         Testimonials

@@ -1,10 +1,10 @@
 import React from "react";
 
-const BredCumbs = ({ title, imgurl }) => {
+const BredCumbs = ({ title, imageurl }) => {
   return (
     <>
       <section
-        Style={`background-image:url(${imgurl})`}
+        Style={`background-image:url(${imageurl})`}
         className="py-16 bg-no-repeat bg-cover"
       >
         <div className="bg-black bg-opacity-70">

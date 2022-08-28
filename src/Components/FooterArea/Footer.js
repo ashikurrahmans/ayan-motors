@@ -7,12 +7,12 @@ const Footer = () => {
   return (
     <>
       <section className="bg-black text-white list-none py-12">
-        <div className="w-10/12 mx-auto">
+        <div className="w-10/12 mx-auto ">
           <FooterTop></FooterTop>
           <div className="my-4">
             <FooterMiddle></FooterMiddle>
           </div>
-          <div className="">
+          <div>
             <FooterBottom></FooterBottom>
           </div>
         </div>
