@@ -28,7 +28,7 @@ const AllSearchItems = () => {
           </div>
 
           <div className="lg:flex justify-between justify-items-center  mt-5">
-            <p className="mt-1 text-white">Displaying 1 - 16 Of 16 Vehicles</p>
+            <p className="mt-3 text-white">Displaying 1 - 16 Of 16 Vehicles</p>
             <div className="flex">
               <span className="mt-2 text-black">
                 <SiPlatformdotsh style={iconsStyle} />

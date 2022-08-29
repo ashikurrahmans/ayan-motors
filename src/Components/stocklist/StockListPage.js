@@ -1,4 +1,5 @@
 import React from "react";
+import SingleCarItem from "./CarsItem/SingleCarItem";
 import AllSearchItems from "./SelectSearch/AllSearchItems";
 import StockHeader from "./StockHeader";
 import StocklistBottom from "./StocklistBottom";
@@ -15,6 +16,7 @@ const StockListPage = () => {
         <VehicleSearchButtons></VehicleSearchButtons>
       </div>
       <AllSearchItems></AllSearchItems>
+      <SingleCarItem></SingleCarItem>
       <div className="bg-gray-800 py-8">
         <StocklistBottom></StocklistBottom>
       </div>
