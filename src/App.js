@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import NotFound from "./Components/404NotFound/NotFound";
 import FindUsPage from "./Components/Findus/FindUsPage";
 import TestimonialsPage from "./Components/Testimonials/TestimonialsPage";
+import StockListPage from "./Components/stocklist/StockListPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>} />
         <Route path="/find-us" element={<FindUsPage></FindUsPage>} />
+        <Route path="/stocklist" element={<StockListPage />} />
         <Route
           path="/testimonials"
           element={<TestimonialsPage></TestimonialsPage>}
@@ -23,10 +25,6 @@ function App() {
         <Route path="*" element={<NotFound></NotFound>} />
       </Routes>
       <Footer></Footer>
-
-      <Routes>
-        <Route path="/admin" element={<h1>admin</h1>}></Route>
-      </Routes>
     </>
   );
 }
