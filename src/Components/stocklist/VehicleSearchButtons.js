@@ -1,10 +1,10 @@
 import React from "react";
 
-const VehicleSearch = () => {
+const VehicleSearchButtons = () => {
   return (
     <>
       <section className="w-10/12 mx-auto">
-        <div className="py-4">
+        <div className="pt-4">
           <button className="uppercase text-white bg-gray-500 px-7 py-3 rounded font-semibold">
             vehicle search
           </button>
@@ -17,4 +17,4 @@ const VehicleSearch = () => {
   );
 };
 
-export default VehicleSearch;
+export default VehicleSearchButtons;
